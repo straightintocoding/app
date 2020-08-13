@@ -1,6 +1,5 @@
 import { auth, firestore } from "firebase";
 import { authConstanst } from "./constants";
-import { getRealtimeUsers } from "./user.actions";
 
 export const signup = (user) => {
   return async (dispatch) => {
